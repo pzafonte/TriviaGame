@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Trivia Game</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+
+      <div id="intro">
+
+        <h1 class="display-4">Trivia Game</h1>
+        <p class="lead">Try your best to answer ten trivia questions correctly.</p>
+        <p class="lead">
+          <div class='btn btn-primary btn-lg' id='start'>Let's Play!</div>
+        </p>
+      </div>
+
+      <div id="play"></div>
+      <div id="answer"></div>
+      <div class="container_timer">
+        <div id="timer"></div>
+      </div>
+      <div id="results">
+        <h2 class="display-5">Results</h2>
+        <div id="result"></div>
+        <div class="btn btn-primary btn-lg" id="reset">New Game</div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
